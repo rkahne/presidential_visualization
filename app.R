@@ -207,7 +207,7 @@ ui<-dashboardPage(
                   titleWidth = 600),
   dashboardSidebar(
     selectInput('election_selection', 'Select Election', election_names, selected = 'Election_2016'),
-    selectInput('state_selection', 'Select State', c('National',names(state_table)), selected = 'National')
+    selectInput('state_selection', 'Select State', c('National',names(state_table)), selected = 'Kentucky')
   ),
   dashboardBody(
     # Style tag helps make leaflet take up more space.
